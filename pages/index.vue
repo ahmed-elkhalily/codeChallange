@@ -1,21 +1,18 @@
 <template>
-  <div class="h-screen flex items-center justify-center bg-cyan-200">
-    <h1
-      class="
-        font-mono
-        text-cyan-900
-        font-bold
-        text-7xl text-center
-        border-b-2 border-cyan-700
-        pb-5
-      "
-    >
-      before start
-    </h1>
-    <small class="text-sm">first deploy!</small>
+  <div class="flex w-screen">
+    <sidebar></sidebar>
+    <div class="w-full bg-main flex-1 flex flex-col">
+      <nav-bar></nav-bar>
+      <tab-nav></tab-nav>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import Sidebar from '../components/sidebar.component.vue'
+import NavBar from '../components/Navbar.component.vue'
+import TabNav from '../components/TabNav.component.vue'
+export default {
+  components: { Sidebar, NavBar, TabNav },
+}
 </script>
