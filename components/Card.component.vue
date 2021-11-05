@@ -21,9 +21,15 @@
       <h3 class="mt-3 text-xl font-bold text-cyan-900">
         {{ round.title }}
       </h3>
-      <h4 class="text-xl font-bold text-green">
-        {{ getPercent(round.current_investment, round.investment_goal) }} %
-      </h4>
+      <div class="flex">
+        <h4 class="text-xl font-bold text-green">
+          {{ getPercent(round.current_investment, round.investment_goal) }} %
+        </h4>
+        <p class="text-cyan-900 ml-2 font-bold">
+          {{ round.investment_goal - round.current_investment }} &euro; Left to
+          found
+        </p>
+      </div>
       <progress-bar
         :width="getPercent(round.current_investment, round.investment_goal)"
       ></progress-bar>
