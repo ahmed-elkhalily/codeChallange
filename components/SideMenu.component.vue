@@ -1,5 +1,5 @@
 <template>
-  <div class="w-xs bg-white flex-grow-0">
+  <div class="w-xs bg-white flex-shrink-0 overflow-x-hidden">
     <figure class="pl-6 py-6">
       <img src="../assets/images/Logo.png" alt="" />
     </figure>
@@ -64,7 +64,7 @@
   </div>
 </template>
 <script>
-import ListItem from './list-item.component'
+import ListItem from './List-item.component'
 import {
   cockpit,
   star,

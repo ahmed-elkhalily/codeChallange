@@ -4,6 +4,6 @@
     <li class="ml-7 font-lg font-semibold border-cyan-900 pb-2 active-border">
       Active
     </li>
-    <li class="ml-7 font-lg font-semibold">Comming Soon</li>
+    <li class="ml-7 font-lg font-semibold opacity-50">Comming Soon</li>
   </ul>
 </template>
