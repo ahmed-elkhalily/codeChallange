@@ -1,3 +1,4 @@
+// helpers/index.js
 export const getPercent = function (currentInvest, goalInvest) {
   return Math.round((currentInvest * 100) / goalInvest)
 }

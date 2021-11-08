@@ -1,9 +1,9 @@
 <template>
-  <div class="w-sm mt-7 mr-8 bg-white rounded-md">
+  <div class="w-sm mt-7 mr-6 bg-white rounded-md">
     <figure class="w-full">
       <img :src="round.banner" alt="" />
     </figure>
-    <div class="mx-4">
+    <div class="px-3">
       <button
         class="
           text-xs

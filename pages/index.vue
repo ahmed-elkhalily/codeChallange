@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-screen">
     <side-menu></side-menu>
-    <div class="bg-main flex-1 flex flex-col overflow-x-scroll">
+    <div class="bg-main flex flex-col overflow-x-scroll">
       <nav-bar></nav-bar>
       <tab-nav></tab-nav>
       <cardslist></cardslist>

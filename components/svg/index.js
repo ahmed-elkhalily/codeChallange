@@ -1,3 +1,4 @@
+// svg/index.js
 import cockpit from './cockpit.svg.vue'
 import star from './star.svg.vue'
 import rocket from './rocket.svg.vue'
